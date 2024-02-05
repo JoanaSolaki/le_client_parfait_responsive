@@ -1,0 +1,66 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7C552;
+    height: 600px;
+    padding: 0;
+    text-align: center;
+  }
+
+  /* Styles pour les indicateurs de pagination */
+  .carousel .slick-dots {
+    bottom: 25%; /* position verticale des points */
+  }
+
+  .carousel .slick-dots li button:before {
+    color: white;
+    font-size: 9px;
+    border-radius: 50%;
+  }
+
+  /* Espace autour de chaque slide */
+  .slick-slide {
+    padding: 15px;
+  }
+
+  .comment-container {
+    background-color: white;
+    padding: 35px;
+    border-radius: 10px;
+  }
+
+  .comment-container p {
+    font-style: italic;
+    color: grey;
+  }
+
+  .name {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .slick-dotted.slick-slider
+  {
+    margin-bottom: 0px;
+  }
+
+  .name h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+  }
+
+  .name h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+.slick-next{
+  right: 0;
+  display: none!important;
+}

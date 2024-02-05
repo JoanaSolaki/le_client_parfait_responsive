@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="https://kit.fontawesome.com/1ed5727593.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>  
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&family=Rubik:wght@300;400&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Le client parfait</title>
+  </head>
+  <body>
+    <header>
+      <p class="logo"><strong>T</strong>INKER</p>
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#icons">About Us</a>
+        <a href="#gallery">Porfolio</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+
+      <div class="dropdown">
+        <button class="btn btn-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Home</a></li>
+          <li><a class="dropdown-item" href="#icons">About Us</a></li>
+          <li><a class="dropdown-item" href="#gallery">Portfolio</a></li>
+          <li><a class="dropdown-item" href="#blog">Blog</a></li>
+          <li><a class="dropdown-item" href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h1>
+          <strong><span>TINKER</span> HTML5</strong> Template
+        </h1>
+        <p>Tinker is a responsive CSS template provided by templatetemo site.This design can be applied for any kind of website. Please mentinoour site to your colleagues. Thank you.</p>
+        <a href="#">Let's start</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="icons" id="icons">
+        <div class="about">
+          <img src="assets_maquette/service_icon_01.png" alt="Icon cloche" />
+          <h3>Smart notifications</h3>
+          <hr />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nisi cum sed. Exercitationem dicta blanditiis.</p>
+          <a href="#">Continue reading</a>
+        </div>
+        <div class="about">
+          <img src="assets_maquette/service_icon_02.png" alt="Icon coeur" />
+          <h3>Lovely Web Design</h3>
+          <hr />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nisi cum sed. Exercitationem dicta blanditiis.</p>
+          <a href="#">Continue reading</a>
+        </div>
+        <div class="about">
+          <img src="assets_maquette/service_icon_03.png" alt="Icon support 24/7"/>
+          <h3>Quick Support</h3>
+          <hr />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nisi cum sed. Exercitationem dicta blanditiis.</p>
+          <a href="#">Continue reading</a>
+        </div>
+        <div class="about">
+          <img src="assets_maquette/service_icon_04.png" alt="Icon setup" />
+          <h3>One Click Setup</h3>
+          <hr />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nisi cum sed. Exercitationem dicta blanditiis.</p>
+          <a href="#">Continue reading</a>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <div class="text_gallery">
+          <h2>Our gallery</h2>
+          <hr/>
+          <p>Nam sit amet interdum magna, sed aliquam tortor. Ut tincidunt bibendum euismod.</p>
+          <ul>
+            <li class="category-tab show-all active" onclick="filterImages('show-all')">Show All</li>
+            <li class="category-tab branding" onclick="filterImages('branding')">Branding</li>
+            <li class="category-tab graphic" onclick="filterImages('graphic')">Graphic</li>
+            <li class="category-tab nature" onclick="filterImages('nature')">Nature</li>
+            <li class="category-tab animation" onclick="filterImages('animation')">Animation</li>
+          </ul>
+        </div>
+        <div class="images_gallery">
+          <img src="assets_maquette/portfolio_item_01.jpg" alt="Images blog" class="branding show-all" />
+          <img src="assets_maquette/portfolio_item_02.jpg" alt="Images blog" class="branding show-all" />
+          <img src="assets_maquette/portfolio_item_03.jpg" alt="Images blog" class="graphic show-all" />
+          <img src="assets_maquette/portfolio_item_04.jpg" alt="Images blog" class="nature show-all" />
+          <img src="assets_maquette/portfolio_item_05.jpg" alt="Images blog" class="nature show-all" />
+          <img src="assets_maquette/portfolio_item_06.jpg" alt="Images blog" class="animation show-all" />
+        </div>
+      </section>
+
+        <section>
+          <div class="carousel">
+            <!-- Slide 1 -->
+            <div class="slide">
+              <div class="comment-container">
+              <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil eligendi enim, facere reiciendis officiis eum voluptate."</p>
+              </div>
+              <div class="name">
+              <h2>John Henry</h2>
+              <h5>Art Director</h5>
+              </div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="slide">
+              <div class="comment-container">
+              <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil eligendi enim, facere reiciendis officiis eum voluptate."</p>
+              </div>
+              <div class="name">
+              <h2>Joana</h2>
+              <h5>Web Designer - Experte Front-End</h5>
+              </div>
+            </div>
+            
+            <!-- Slide 3 -->
+            <div class="slide">
+              <div class="comment-container">
+              <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil eligendi enim, facere reiciendis officiis eum voluptate."</p>
+              </div>
+              <div class="name">
+              <h2>Damien</h2>
+              <h5>Web Developer</h5>
+              </div>
+            </div>
+
+              <!-- Slide 4 -->
+            <div class="slide">
+              <div class="comment-container">
+              <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil eligendi enim, facere reiciendis officiis eum voluptate."</p>
+              </div>
+              <div class="name">
+                <h2>Catherine</h2>
+                <h5>Violoniste international</h5>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      <section class="blog" id="blog">
+        <div class="blog_menu">
+          <h2>Our blog posts</h2>
+          <hr />
+          <p>Etiam maximus maximus mollis. Sed congue eros sit amet enim consequat efficitur</p>
+          <ul>
+            <li>          
+              <a href="#" class="active">Nulla eget convallis augue</a>
+            </li>
+            <li> 
+              <a href="#">Quisque ulreicies maximus</a>
+            </li>
+            <li>
+              <a href="#">Sed vel elit et "lorem</a>
+            </li>
+            <li>
+              <a href="#">Vivamus purus neque</a>
+            </li>
+          </ul>
+
+        </div>
+        <div class="articles">
+          <img src="assets_maquette/blog_item_01.jpg" alt="Article 1 image" />
+          <h3>Nulla eget convallis augue</h3>
+          <p class="article_info">Digital Marketing / Honey / 21 September 2020</p>
+          <p>Proin eu velit tincidunt, faucibus ligula gravida, aliquam diam. Nam sollicitudin dui vel lectus varius cursus. Vivamus ut urna nec felis finibus sodales.</p>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div>
+          <h2>Contact us</h2>
+          <hr />
+          <p>Mauris lectus eros, fringilla cursus odio vitae, condimentum tempor neque.
+          </p>
+          <a href="#">Send us a message</a>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7977.617067241582!2d103.85958762130379!3d1.2890953985373361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19205a053e4f%3A0xa436a9d6e4de27c0!2s30%20Raffles%20Ave.%2C%20Singapour%20039803!5e0!3m2!1sfr!2sfr!4v1706108091273!5m2!1sfr!2sfr"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <p class="logo"><strong>T</strong>INKER</p>
+        <p>Copyrigth © 2020 Your Compagny <br />
+          Design: TemplateMo</p>
+        <hr/>
+      </div>
+      <h4>Location</h4>      
+      <div class="location">
+        <div>
+          <p>46 Raffles Ave,<br />
+            Singapore 039803</p>
+        </div>
+        <div>
+          <p>12 Republic Blvd, <br />
+            Singapore 039803</p>
+        </div>
+      </div>
+      <div>
+        <hr/>
+        <h4>More info</h4>
+        <div class="more_info"><p><strong>Phone</strong>: 040-040-0440</p>
+        <p><strong>Email</strong>: tk@compagny.co</p></div>
+        <hr/>
+        </div>
+        <div>
+          <h4>Get social with us</h4>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-google"></i></a>
+          <a href="#"><i class="fa-solid fa-rss"></i></a>
+          <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>  
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
